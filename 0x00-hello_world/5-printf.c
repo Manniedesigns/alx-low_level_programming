@@ -1,20 +1,12 @@
 #include<stdio.h>
 
 /**
+ * main - Entry point
  *
- *  * main - Entry point
+ * Hint: prints "with proper grammar, but the outcome is a piece of art"
  *
- *   *
- *
- *    * Description: prints "with proper grammar, but the outcome is a piece of
- *
- *     * art,"
- *
- *      *
- *
- *       * Return: Always 0 (Success)
- *
- *        */
+ * Return: Always 0 (Succes)
+ **/
 
 int main(void)
 {
