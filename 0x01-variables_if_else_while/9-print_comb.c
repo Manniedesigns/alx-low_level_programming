@@ -12,11 +12,14 @@ int main(void)
 {
 	int a;
 
-	for (a = 0; a < 10; a++)
+	for (a = 10; a < 20; a++)
 	{
-		putchar('0' + a);
-		putchar(',');
-		putchar(' ');
+		putchar((a % 10) + '0');
+		if (a != 19)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
