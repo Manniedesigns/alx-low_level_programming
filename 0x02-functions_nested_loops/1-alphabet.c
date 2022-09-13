@@ -5,7 +5,7 @@
  *
  * Description: A funtion that prints the alphabets in lowercase
  *
- * Return: Always returns 0 (*success)
+ * Return: Always returns void (nothing)
  */
 
 void print_alphabet(void)
@@ -18,5 +18,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
