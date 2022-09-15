@@ -3,6 +3,7 @@
 /**
 * _isupper - function that checks for uppercase character.
 * @c: character
+*
 * Return: gives 1 or 0
 */
 
@@ -12,6 +13,5 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-
 	return (0);
 }
