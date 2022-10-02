@@ -11,14 +11,12 @@ int sq(int n, int y)
 {
 	if (y * y > n)
 		return (-1);
-	}
+	}	
 	if (y * y == n)
 	{
 		return (y);
 	}
-
 	return (sq(n, y + 1));
-
 }
 
 /**
